@@ -1,0 +1,104 @@
+.PlayArea {
+  height: 70vh;
+  width: 21vw;
+  background-color: #192a32;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pickArea {
+  height: 15vh;
+  width: 20vw;
+  background-color: #315466;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pickPlayer {
+  height: 18vh;
+  width: 20vw;
+  border-radius: 2%;
+  background-color: #42697a;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.options {
+  height: 5vh;
+  width: 15vw;
+  background-color: #192a32;
+  display: flex;
+  border-radius: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.xButton {
+  height: 80%;
+  width: 46%;
+  background-color: #192a32;
+  background-image: url('../Assets/Images/X.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #d9d9d9;
+  text-align: center;
+  fill: #192a32;
+  stroke-width: 1.5px;
+  stroke: #192a32;
+  cursor: pointer;
+}
+
+.oButton {
+  height: 80%;
+  width: 46%;
+  background-color: #192a32;
+  color: #d9d9d9;
+  text-align: center;
+  cursor: pointer;
+  background-image: url('../Assets/Images/O.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn:hover{
+    background-color: #D9D9D9;
+    color: black;
+    border-radius: 5%;
+}
+
+.newGame {
+  background-color: #f2b237;
+  width: 20vw;
+  height: 5vh;
+  cursor: pointer;
+}
+
+.dummy {
+  background-color: #32c4c3;
+  width: 20vw;
+  height: 5vh;
+}
+
+.txt {
+  color: #192a32;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}

@@ -1,0 +1,19 @@
+.toast {
+  width: 17vw;
+  height: 7vh;
+  background-color: #192a32;
+  border-radius: 2vh;
+  position: absolute;
+  top: 8vh;
+  margin-left: 84vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f2b237;
+
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  }

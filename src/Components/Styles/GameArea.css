@@ -1,0 +1,100 @@
+.gameArea {
+    height: 65vh;
+    width: 21vw;
+    background-color: #192a32;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+  }
+  .top{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .icons{
+    width: 24%;
+    display: flex;
+    justify-content: space-between;
+}
+.Turn{
+  width: 5vw;
+  height: 4vh;
+  background-color: #1F3540;
+  color: #A8BEC9;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Reset{
+  width:3vw;
+  height: 4vh;
+  background-color: #A7BDC8;
+  border-radius: 6px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+span{
+  font-size: 19px;
+}
+  .GameBoard{
+    height: 100%;
+    width: 15vw;
+    margin-left: -1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .rows{
+    display: flex;
+    justify-content: space-around;
+    width: 20vw;
+    margin-left: -2vw;
+  }
+  .boxes{
+    background-color: #1F3540;
+    height: 12vh;
+    width: 5vw;
+    border: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vh;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  .boxes img{
+    height: 6vh;
+    width: 6vw;
+  }
+
+  .scoreBoard{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .scoreBtn{
+    outline: 0;
+    border: 0;
+    background-color: yellow;
+    height: 7vh;
+    width: 3.6vw;
+    font-size: 10px;
+    border-radius: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

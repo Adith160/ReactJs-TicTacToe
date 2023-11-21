@@ -1,0 +1,73 @@
+.playAgain{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+}
+
+.alert{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #F2B237;
+    background-color: #192A32;
+    width: 100%;
+    height: 26%;
+}
+
+.titles{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+h1,h4{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    width: 7vw;
+    height: 4.5vh;
+    cursor: pointer;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.blue{
+    background-color: #31C4BE;
+}
+
+.yellow{
+    background-color: #F2B237;
+}
+
+.grey{
+    background-color: #A8BEC9;
+}
+
+h3{
+    color: #ACC2CD;
+  }
+
+.WinImg{
+    height: 3vh;
+    width: 4vw;
+}

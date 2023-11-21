@@ -1,0 +1,39 @@
+.quote {
+  width: 20vw;
+  height: 43vh;
+  background-color: #192a32;
+  border-radius: 7%;
+  position: absolute;
+  margin-top: 44vh;
+  margin-right: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f2b237;
+
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+h2{
+    color: #31C4BE;
+    margin: 0;
+    padding: 0;
+}
+
+.circle1 {
+  height: 4vh;
+  width: 2vw;
+  background-color: aqua;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  padding: 2vh 2vh;
+}
