@@ -76,12 +76,6 @@
   background-position: center;
 }
 
-.btn:hover{
-    background-color: #D9D9D9;
-    color: black;
-    border-radius: 5%;
-}
-
 .newGame {
   background-color: #f2b237;
   width: 20vw;

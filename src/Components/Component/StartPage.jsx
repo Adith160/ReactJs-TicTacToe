@@ -10,6 +10,7 @@ function StartPage({onInvite }) {
   const [NewGame, setNewGame] = useState(false);
   const [Choice, setUserChoice] = useState(null);
   const [ShowToast, setShowToast] = useState(false);
+  const [prevSelection, setPrevSelection] = useState(null);
 
   const handleInvite = () => {
     setShowToast(true);
@@ -28,7 +29,11 @@ function StartPage({onInvite }) {
 
   const handleUserSelection = (e, selection) => {
     setUserChoice(selection);
+    if (prevSelection) {
+      prevSelection.target.style.backgroundColor = '#192a32';
+    }
     e.target.style.backgroundColor = '#D9D9D9';
+    setPrevSelection(e);
   };
   return (
     <>
@@ -43,10 +48,10 @@ function StartPage({onInvite }) {
           <div className="pickPlayer">
             PICK PLAYER
             <div className="options">
-              <div className="xButton btn" onClick={(e) => handleUserSelection(e, 'X')}>
+              <div className="xButton" onClick={(e) => handleUserSelection(e, 'X')}>
                
               </div>
-              <div className="oButton btn" onClick={(e) => handleUserSelection(e, 'O')}>
+              <div className="oButton" onClick={(e) => handleUserSelection(e, 'O')}>
               </div>
             </div>
           </div>
